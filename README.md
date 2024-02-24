@@ -1,1 +1,1 @@
-# Music-Festival
+# A landing page for a music festival that features Andrew McMahon in the Wilderness, Imagine Dragons, and The Fray
