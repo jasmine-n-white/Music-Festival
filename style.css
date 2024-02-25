@@ -64,6 +64,7 @@ body {
     text-align: center;
     background-color: #3989a2;
     margin: 0px;
+    width: 100%;
 }
 
 .ticketing-information h1 {
@@ -76,4 +77,37 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.ticket-price {
+    background-color: #143c6c;
+    color: #ffff00;
+    padding: 10px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 250px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ticket-button {
+    font-size: 1rem;
+    font-family: Bebas Neue;
+    background-color: #8eeffa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.artist-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artist {
+    width: 450px;
+    height: 450px;
 }
