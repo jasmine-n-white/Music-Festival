@@ -8,6 +8,7 @@ header {
     color: #143c6c;
     font-family: Amatic SC;
     font-size: 2rem;
+    top: 0;
 
 }
 
@@ -57,4 +58,22 @@ body {
 .hero-span {
     font-weight: bolder;
     color: #ffff00;
+}
+
+.ticketing-information {
+    text-align: center;
+    background-color: #3989a2;
+    margin: 0px;
+}
+
+.ticketing-information h1 {
+    font-family: Amatic SC;
+    font-size: 4rem;
+    color: #ffff00;
+}
+
+.ticket-price-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
