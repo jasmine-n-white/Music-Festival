@@ -53,12 +53,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .hero-span {
     font-weight: bolder;
     color: #ffff00;
+}
+
+@keyframes scaleUp {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+
+.hero-container-item:hover {
+    animation: scaleUp 1s ease-in-out forwards;
+
+}
+
+@keyframes scaleDown {
+    from {transform: scale(1.2);}
+    to {transform: scale(1);}
+}
+
+.hero-container-item:not(:hover) {
+    animation: scaleDown 0.5s ease-in-out forwards;
+
 }
 
 .ticketing-information {
@@ -102,6 +121,19 @@ body {
     border-radius: 5px;
 }
 
+.ticket-price:hover {
+ animation: scaleUp 1s ease-in-out forwards;
+}
+
+.ticket-price:not(:hover) {
+    animation: scaleDown 1s ease-in-out forwards;
+   }
+
+.ticket-button:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: ease-in-out 0.5s;
+}
 .sign-up-section {
     text-align: center;
     line-height: 1.2rem;
