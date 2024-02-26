@@ -9,7 +9,7 @@ header {
     font-family: Amatic SC;
     font-size: 2rem;
     top: 0;
-
+    line-height: 50%;
 }
 
 body {
@@ -113,7 +113,7 @@ body {
 }
 
 .sign-up-section p {
-    font-family: Amatic SC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
 }
 
