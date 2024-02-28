@@ -3,7 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 
+@keyframes fadeIn {
+    from {
+       opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
 header {
+    animation: fadeIn 1s ease-in-out forwards;
     text-align: center;
     color: #143c6c;
     font-family: Amatic SC;
@@ -18,6 +28,7 @@ body {
     margin: 0;
     
 }
+
 .hero-container {
     display: flex;
     flex-direction: row;
@@ -153,7 +164,7 @@ body {
     }
     to {
         color: black;
-        background-color: lightblue;
+        background-color: #e5f81e;
     }
 }
 
