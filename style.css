@@ -224,16 +224,13 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #0ad5ac;
-    padding: 10px;
+    padding: 1px;
     font-family: Amatic SC;
     color: #143c6c;
 
 }
 
-.contact {
-    display: flex;
-}
-.contact-info {
+.extra-info {
     list-style-type: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
