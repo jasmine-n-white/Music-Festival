@@ -204,7 +204,20 @@ input {
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
+    font-size: 1rem;
+}
 
+#subscribe {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffff00;
+    font-family: Bebas Neue;
+    font-size: 1rem;
+}
+
+#subscribe:hover {
+   animation: scaleUp 0.2s ease-in-out forwards;
 }
 
 footer {
