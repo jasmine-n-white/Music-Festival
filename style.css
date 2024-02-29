@@ -221,16 +221,51 @@ input {
 }
 
 footer {
-    bottom: 0;
+    margin: 0;
     width: 100%;
     background-color: #0ad5ac;
     padding: 1px;
     font-family: Amatic SC;
     color: #143c6c;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 
 .extra-info {
-    list-style-type: none;
+    list-style-type: disc;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    font-size: 1.4rem;
+    justify-content: center;
+    
+}
+
+.extra-info p {
+    padding: 10px;
+}
+.extra-info p:hover {
+    color: #ffff00;
+}
+
+.socials {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socIcon {
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+}
+.socIcon:hover {
+    animation: scaleUp 0.1s ease-in-out forwards;
 }
