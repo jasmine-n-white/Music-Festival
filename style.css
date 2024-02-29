@@ -269,3 +269,98 @@ footer {
 .socIcon:hover {
     animation: scaleUp 0.1s ease-in-out forwards;
 }
+
+@media screen and (max-width: 1000px) {
+    .hero-date {
+        font-size: 1rem;
+    }
+      .hero-title {
+        font-size: 1rem;
+    }
+      .hero-text {
+        font-size: 1rem;
+    }
+    .ticket-price {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .hero-container {
+        flex-direction: column;
+    }
+    .hero-container-item {
+        padding: 50px;
+    }
+      .hero-date {
+        font-size: 1.5rem;
+    }
+      .hero-title {
+        font-size: 1.5rem;
+    }
+      .hero-text {
+        font-size: 1.5rem;
+    }
+    .ticket-price-options {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .ticket-price {
+        font-size: 1.5rem;
+        padding: 20px 100px;
+        line-height: 1.5rem;
+    }
+    .ticket-button {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero-container {
+        padding: 0px;
+    }  
+    .hero-date {
+        font-size: 1rem;
+    }
+    .hero-title {
+        font-size: 1rem;
+    }
+    .hero-text {
+        flex-wrap: nowrap;
+        font-size: 1rem;
+    }
+    .ticket-price {
+        font-size: 0.9rem;
+        padding: 0;
+        line-height: 0.9rem;
+        width: 250px;
+        height: 250px;
+    }
+    .ticket-button {
+        font-size: 1.2rem;
+    }
+    form {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .extra-info {
+      font-size: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .ticket-price {
+        margin: 15px 0px;
+    }
+
+    .extra-info {
+        font-size: 0.9rem;
+    }
+}
